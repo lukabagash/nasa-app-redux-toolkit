@@ -80,7 +80,7 @@ const Photo: React.FunctionComponent = () => {
                 id="year"
                 type="number"
                 min="1980"
-                max="2021"
+                max="2024"
                 value={dateOfYear}
                 onChange={(e) => handleChangeYear(e.target.value)}
               />
